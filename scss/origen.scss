@@ -3,7 +3,6 @@ html {
 }
 
 header {
-  background-color: rgb(81, 211, 161);
   font-size: 2rem;
   text-align: center;
   width: 100%;
@@ -13,46 +12,41 @@ header {
   .banner {
     display: flex;
     align-items: center;
-    background-image: url(./Paginas/img/heather.jpg);
+    background-image: url(../Paginas/img/heather.jpg);
     height: 95px;
     justify-content: center;
     background-position: center;
-
-    h1 {
-      color: blue;
-      text-align: center;
-    }
   }
 }
 
 nav {
-  height: 50px;
+  height: 70px;
   background-color: rgb(5, 71, 133);
   background-image: linear-gradient(to top, rgb(5, 71, 133), rgb(48, 206, 166));
 
   ul {
     display: flex;
     justify-content: space-between;
-
     li {
       border: groove 3px salmon;
       margin-top: 5px;
       padding: 8px 3px;
-      border-radius: 20px;
+      border-radius: 15px;
       transition: all 1s;
       animation-name: efect;
       animation-iteration-count: 1;
       animation-timing-function: cubic-bezier(1, 0, 0, 1);
       animation-duration: 2s;
       animation-delay: 0s;
-      color: transparent;
-
-      li a {
+      list-style: none;
+      -webkit-text-stroke: 1px black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 2rem;
+      a {
         color: rgb(255, 255, 255);
         text-decoration: none;
-
         li:hover {
-          background-color: rgb(3, 25, 43);
+          background-color: black;
         }
       }
     }
@@ -67,9 +61,6 @@ p {
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
   transition: 1s;
-  @if 1 + 1 == 2 {
-    border: 3px solid greenyellow;
-  }
 }
 
 footer {
@@ -100,15 +91,31 @@ main {
 
 table {
   font-family: "Oswald", sans-serif;
-  font-size: 2rem;
+  font-size: 18px;
   background-color: rgba(40, 215, 221, 0.582);
   th {
     color: rgb(230, 231, 230);
   }
 }
 
+.map {
+  display: grid;
+  grid-template-columns: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+
+  .mapubi {
+    display: grid;
+    grid-template-columns: inherit;
+  }
+}
+
 .callCenter {
   color: black;
+}
+
+.carousel {
+  margin: 35px;
 }
 
 .nacionales {
@@ -139,25 +146,6 @@ table {
 .parrafo2 {
   display: grid;
   grid-template-columns: auto auto;
-}
-
-.header__h1--color {
-  color: aqua;
-  height: 15% * 3;
-}
-
-.aside--text-align {
-  text-align: left;
-  font-size: 12px + 3;
-}
-
-.body--backgroung {
-  background-color: rgb(72, 156, 182);
-  width: 25px - 8;
-}
-
-.footer-background {
-  background-color: rgb(14, 74, 143);
 }
 
 @media (max-width: 640px) {

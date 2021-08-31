@@ -2,7 +2,6 @@ html {
   font-size: 75%; }
 
 header {
-  background-color: #51d3a1;
   font-size: 2rem;
   text-align: center;
   width: 100%;
@@ -11,16 +10,13 @@ header {
   header .banner {
     display: flex;
     align-items: center;
-    background-image: url(./Paginas/img/heather.jpg);
+    background-image: url(../Paginas/img/heather.jpg);
     height: 95px;
     justify-content: center;
     background-position: center; }
-    header .banner h1 {
-      color: blue;
-      text-align: center; }
 
 nav {
-  height: 50px;
+  height: 70px;
   background-color: #054785;
   background-image: linear-gradient(to top, #054785, #30cea6); }
   nav ul {
@@ -30,19 +26,22 @@ nav {
       border: groove 3px salmon;
       margin-top: 5px;
       padding: 8px 3px;
-      border-radius: 20px;
+      border-radius: 15px;
       transition: all 1s;
       animation-name: efect;
       animation-iteration-count: 1;
       animation-timing-function: cubic-bezier(1, 0, 0, 1);
       animation-duration: 2s;
       animation-delay: 0s;
-      color: transparent; }
-      nav ul li li a {
+      list-style: none;
+      -webkit-text-stroke: 1px black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 2rem; }
+      nav ul li a {
         color: white;
         text-decoration: none; }
-        nav ul li li a li:hover {
-          background-color: #03192b; }
+        nav ul li a li:hover {
+          background-color: black; }
 
 body {
   background-color: #489cb6; }
@@ -50,8 +49,7 @@ body {
 p {
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
-  transition: 1s;
-  border: 3px solid greenyellow; }
+  transition: 1s; }
 
 footer {
   text-align: center;
@@ -74,13 +72,25 @@ main {
 
 table {
   font-family: "Oswald", sans-serif;
-  font-size: 2rem;
+  font-size: 18px;
   background-color: rgba(40, 215, 221, 0.582); }
   table th {
     color: #e6e7e6; }
 
+.map {
+  display: grid;
+  grid-template-columns: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left; }
+  .map .mapubi {
+    display: grid;
+    grid-template-columns: inherit; }
+
 .callCenter {
   color: black; }
+
+.carousel {
+  margin: 35px; }
 
 .nacionales {
   display: grid;
@@ -105,21 +115,6 @@ table {
 .parrafo2 {
   display: grid;
   grid-template-columns: auto auto; }
-
-.header__h1--color {
-  color: aqua;
-  height: 45%; }
-
-.aside--text-align {
-  text-align: left;
-  font-size: 15px; }
-
-.body--backgroung {
-  background-color: #489cb6;
-  width: 17px; }
-
-.footer-background {
-  background-color: #0e4a8f; }
 
 @media (max-width: 640px) {
   body {
