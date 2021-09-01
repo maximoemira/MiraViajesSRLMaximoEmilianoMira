@@ -39,7 +39,7 @@ nav {
       animation-duration: 2s;
       animation-delay: 0s;
       list-style: none;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       font-size: 1rem;
       a {
         color: rgb(255, 255, 255);
@@ -62,7 +62,56 @@ p {
   transition: 1s;
 }
 
-footer {
+.footer-48201 {
+  padding: 7rem 0;
+  background-color: rgb(14, 74, 143);
+  color: #777;
+}
+
+.footer-48201 .footer-site-logo {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.footer-48201 .nav-links li {
+  margin-bottom: 10px;
+  list-style: circle;
+  margin: 15px;
+}
+
+.footer-48201 .nav-links li a {
+  color: rgb(178, 235, 235);
+}
+
+.footer-48201 .nav-links li a:hover {
+  color: #fff;
+}
+.footer-48201 .btn.btn-tertiary {
+  background-color: #e42c64;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.footer-48201 .social li {
+  display: inline-block;
+}
+
+.footer-48201 .social li a {
+  color: gray;
+  padding: 7px;
+}
+
+.footer-48201 .social li a:hover {
+  color: #fff;
+}
+
+.footer-48201 .copyright {
+  border-top: 1px solid #404040;
+}
+
+/*footer {
   text-align: center;
   display: grid;
   background-color: rgb(14, 74, 143);
@@ -72,7 +121,7 @@ footer {
   p {
     font-size: 1rem;
   }
-}
+}*/
 
 ul li {
   color: burlywood;
@@ -147,25 +196,25 @@ table {
   grid-template-columns: auto auto;
 }
 
-.buscaPasajes{
+.buscaPasajes {
   background: linear-gradient(#e66465, #9198e5);
   display: grid;
   margin: 25px;
-  form{
+  form {
     margin: 5px;
-    h2{
+    h2 {
       text-align: center;
     }
   }
 }
 
-.formcontact{
-  background: linear-gradient(#74ebd5, #ACB6E5);
+.formcontact {
+  background: linear-gradient(#74ebd5, #acb6e5);
   display: grid;
   margin: 25px;
-  form{
+  form {
     margin: 5px;
-    h2{
+    h2 {
       text-align: center;
     }
   }
