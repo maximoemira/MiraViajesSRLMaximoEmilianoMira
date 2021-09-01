@@ -45,7 +45,7 @@ nav ul li {
   border: groove 3px salmon;
   margin-top: 5px;
   padding: 8px 3px;
-  border-radius: 20px;
+  border-radius: 15px;
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-animation-name: efect;
@@ -58,7 +58,9 @@ nav ul li {
           animation-duration: 2s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
-  color: transparent;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
 }
 
 nav ul li a {
@@ -183,6 +185,22 @@ table th {
   display: grid;
   -ms-grid-columns: auto auto;
       grid-template-columns: auto auto;
+}
+
+.buscaPasajes {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5));
+  background: linear-gradient(#e66465, #9198e5);
+  display: -ms-grid;
+  display: grid;
+  margin: 25px;
+}
+
+.buscaPasajes form {
+  margin: 5px;
+}
+
+.buscaPasajes form h2 {
+  text-align: center;
 }
 
 @media (max-width: 640px) {
