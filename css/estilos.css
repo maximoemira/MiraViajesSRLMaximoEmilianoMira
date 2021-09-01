@@ -115,6 +115,15 @@ table {
   display: grid;
   grid-template-columns: auto auto; }
 
+.buscaPasajes {
+  background: linear-gradient(#e66465, #9198e5);
+  display: grid;
+  margin: 25px; }
+  .buscaPasajes form {
+    margin: 5px; }
+    .buscaPasajes form h2 {
+      text-align: center; }
+
 @media (max-width: 640px) {
   body {
     background-color: green; } }
