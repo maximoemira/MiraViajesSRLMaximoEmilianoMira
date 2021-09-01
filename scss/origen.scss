@@ -158,6 +158,19 @@ table {
     }
   }
 }
+
+.formcontact{
+  background: linear-gradient(#74ebd5, #ACB6E5);
+  display: grid;
+  margin: 25px;
+  form{
+    margin: 5px;
+    h2{
+      text-align: center;
+    }
+  }
+}
+
 @media (max-width: 640px) {
   body {
     background-color: green;

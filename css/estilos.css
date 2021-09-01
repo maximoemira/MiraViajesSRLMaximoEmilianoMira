@@ -124,6 +124,15 @@ table {
     .buscaPasajes form h2 {
       text-align: center; }
 
+.formcontact {
+  background: linear-gradient(#74ebd5, #ACB6E5);
+  display: grid;
+  margin: 25px; }
+  .formcontact form {
+    margin: 5px; }
+    .formcontact form h2 {
+      text-align: center; }
+
 @media (max-width: 640px) {
   body {
     background-color: green; } }
