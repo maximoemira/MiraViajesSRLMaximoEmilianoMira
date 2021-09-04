@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     background-image: url(../Paginas/img/heather.jpg);
-    height: 95px;
+    height: 90px;
     justify-content: center;
     background-position: center; }
 
@@ -35,7 +35,8 @@ nav {
       animation-delay: 0s;
       list-style: none;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-      font-size: 1rem; }
+      font-size: 1rem;
+      margin-right: 15px; }
       nav ul li a {
         color: white;
         text-decoration: none; }
@@ -47,8 +48,9 @@ body {
 
 p {
   font-size: 2rem;
-  font-family: "Oswald", sans-serif;
-  transition: 1s; }
+  transition: 1s;
+  color: lightsteelblue;
+  margin-left: 15px; }
 
 .footer-48201 {
   padding: 7rem 0;
