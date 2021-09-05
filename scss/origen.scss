@@ -36,18 +36,17 @@ nav {
       animation-name: efect;
       animation-iteration-count: 1;
       animation-timing-function: cubic-bezier(1, 0, 0, 1);
-      animation-duration: 2s;
+      animation-duration: 1s;
       animation-delay: 0s;
       list-style: none;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       font-size: 1rem;
       margin-right: 15px;
+      margin-left: 15px;
       a {
-        color: rgb(255, 255, 255);
+        color: rgb(132, 255, 239);
         text-decoration: none;
-        li:hover {
-          background-color: black;
-        }
+
       }
     }
   }
@@ -153,37 +152,50 @@ table {
 }
 
 .carousel {
-  margin: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .nacionales {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .internacionales {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .comodidad {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .serviciosABordo {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .parrafo1 {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .parrafo2 {
   display: grid;
   grid-template-columns: auto auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .buscaPasajes {
@@ -210,10 +222,7 @@ table {
   }
 }
 
-@media (max-width: 640px) {
-  body {
-    background-color: green;
-  }
+@media (min-width: 761px) {
 }
 
 @keyframes efect {
