@@ -33,12 +33,11 @@ nav {
     display: flex;
     justify-content: space-between; }
     nav ul li {
-      margin-top: 1px;
+      margin-top: 4px;
       padding: 8px 3px;
       list-style: none;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       font-size: 1rem;
-      margin-left: 25px;
       margin-right: 25px; }
       nav ul li a {
         text-decoration: none; }
@@ -46,11 +45,11 @@ nav {
           color: #000000;
           background-color: #62dbd1;
           border: 1px solid #000000;
-          border-radius: 4px;
-          padding: 4px;
+          border-radius: 2px;
+          padding: 2px;
           cursor: pointer;
-          height: 32px;
-          font-size: 14px;
+          height: 22px;
+          font-size: 10px;
           transition: all 0.2s ease-in-out; }
         nav ul li a button:hover {
           box-shadow: 1px 1px #474849, 2px 2px #474849, 3px 3px #474849;
