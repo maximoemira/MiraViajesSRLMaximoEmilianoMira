@@ -252,9 +252,48 @@ table {
   }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 753px) {
   .carousel {
     width: 90%;
     height: 90%;
   }
+  nav {
+    height: 50px;
+    background-color: rgb(5, 71, 133);
+    background-image: linear-gradient(to top, rgb(5, 71, 133), rgb(48, 206, 166));
+  
+    ul {
+      display: flex;
+      justify-content: space-between;
+  
+      li {
+        margin-top: 4px;
+        padding: 8px 3px;
+        list-style: none;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 1rem;
+        margin-right: 25px;
+  
+        a {
+          text-decoration: none;
+          button {
+            color: #000000;
+            background-color: rgb(98, 219, 209);
+            border: 1px solid #000000;
+            border-radius: 2px;
+            padding: 4px;
+            cursor: pointer;
+            height:28px;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+            }
+            button:hover {
+            box-shadow: 1px 1px #474849, 2px 2px #474849, 3px 3px #474849;
+            transform: translateX(-3px);
+            }
+        }
+      }
+    }
+  } 
+
 }
