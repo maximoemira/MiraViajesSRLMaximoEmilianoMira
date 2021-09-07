@@ -195,7 +195,7 @@ table {
     .formcontact form h2 {
       text-align: center; }
 
-@media (max-width: 760px) {
+@media (min-width: 760px) {
   .carousel {
     width: 90%;
     height: 90%; } }
