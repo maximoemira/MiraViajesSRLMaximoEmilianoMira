@@ -16,6 +16,20 @@ header {
     height: 90px;
     justify-content: center;
     background-position: center;
+
+    button{
+      background-color: Transparent;
+      background-repeat:no-repeat;
+      border: none;
+      cursor: pointer;
+      overflow: hidden;
+      font-size:14px;
+      transition: all 0.2s ease-in-out;
+    }
+      button:hover{
+        transform: scale(0.8);
+      }
+    
   }
 }
 
@@ -27,30 +41,36 @@ nav {
   ul {
     display: flex;
     justify-content: space-between;
+
     li {
-      border: groove 3px salmon;
-      margin-top: 5px;
+      margin-top: 1px;
       padding: 8px 3px;
-      border-radius: 15px;
-      transition: all 1s;
-      animation-name: efect;
-      animation-iteration-count: 1;
-      animation-timing-function: cubic-bezier(1, 0, 0, 1);
-      animation-duration: 1s;
-      animation-delay: 0s;
       list-style: none;
       font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
       font-size: 1rem;
-      margin-right: 15px;
-      margin-left: 15px;
-      a {
-        color: rgb(132, 255, 239);
-        text-decoration: none;
+      margin-right: 25px;
 
+      a {
+        text-decoration: none;
+        button {
+          color: #000000;
+          background-color: rgb(98, 219, 209);
+          border: 1px solid #000000;
+          border-radius: 4px;
+          padding: 4px;
+          cursor: pointer;
+          height:32px;
+          font-size: 14px;
+          transition: all 0.2s ease-in-out;
+          }
+          button:hover {
+          box-shadow: 1px 1px #474849, 2px 2px #474849, 3px 3px #474849;
+          transform: translateX(-3px);
+          }
       }
     }
   }
-}
+}       
 
 body {
   background-color: rgb(72, 156, 182);
@@ -151,9 +171,19 @@ table {
   color: black;
 }
 
+.carouselArea {
+  background-color: #adebe0;
+  background-image: linear-gradient(
+    90deg,
+    #adebe0 0%,
+    #47adc2 50%,
+    #adebe0 100%
+  );
+}
+
 .carousel {
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 75%;
+  height: 85%;
 }
 
 .nacionales {
@@ -222,7 +252,11 @@ table {
   }
 }
 
-@media (min-width: 761px) {
+@media (max-width: 760px) {
+  .carousel {
+    width: 90%;
+    height: 90%;
+  }
 }
 
 @keyframes efect {
@@ -230,6 +264,6 @@ table {
   }
   100% {
     transform: translateX(25%);
-    background-color: cornflowerblue;
+    background-color: rgba(100, 148, 237, 0);
   }
 }
